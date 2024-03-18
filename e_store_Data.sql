@@ -14,9 +14,9 @@ create table products (
 ) ENGINE=InnoDB;
 
 insert into products values (1, 'Tablet'		, 145.50 , 8, '2015-10-09 00:49:30'),
-							(2, 'Smartphone'	, 90.80  , 9, '2015-10-28 04:43:05'),
+			    (2, 'Smartphone'		, 90.80  , 9, '2015-10-28 04:43:05'),
                             (3, 'PC'		   	, 157.40 , 1, '2015-10-10 18:13:09'),
-                            (4, 'Headphones'	, 20.00  , 6, '2015-10-30 06:30:30'),
+                            (4, 'Headphones'		, 20.00  , 6, '2015-10-30 06:30:30'),
                             (5, 'Speakers'		, 56.89  , 4, '2015-10-27 12:24:56'),
                             (6, 'Monitor'		, 125.45 , 7, '2015-10-22 11:32:53');
 
@@ -31,7 +31,7 @@ create table reviews (
 ) engine=InnoDB;
 
 insert into reviews values (1, 6, 5),
-						   (2, 4, 2),
+			   (2, 4, 2),
                            (3, 2, 1),
                            (4, 4, 5),
                            (5, 1, 5),
