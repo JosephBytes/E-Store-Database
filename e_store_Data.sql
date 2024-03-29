@@ -24,9 +24,7 @@ create table reviews (
   id int(3) unsigned not null auto_increment,
   product_id int(3) unsigned not null,
   stars tinyint(1) unsigned not null default'1',
-  primary key (id),
-  key product_id (product_id),
-  constraint reviews_ibfk_1 
+  primary key (id, product_id),
   foreign key(product_id) references products (id)
 ) engine=InnoDB;
 
