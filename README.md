@@ -1,4 +1,4 @@
-## E-store Database includes creation of the database for an online store and querying the database.
+## E-store Database: creation of the database for an online store and querying the database.
 ### Language: SQL
 ### Version: 03/18/2024
 ### Author: Joseph Abdulwahab
